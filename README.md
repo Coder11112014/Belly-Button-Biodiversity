@@ -1,7 +1,7 @@
-#profile
+# profile
 This is my public Github profile
 
-##Introduction
+## Introduction
 This is introduction
 
-##projects
+## projects
