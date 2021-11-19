@@ -8,5 +8,5 @@ This is Intro of me
 
 ## Projects
 
-https://sgodkhindi.github.io/DataVizards/
+[Our Awesome Project](https://sgodkhindi.github.io/DataVizards/)
 
