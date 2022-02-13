@@ -2,9 +2,7 @@
 
 <h1>Belly-Button-Biodiversity</h1>
 
-## Introduction
 
-This is Intro of me
 
 ## Projects
 
