@@ -1,6 +1,6 @@
 
 function demographic(sample, data) {
-    d3.json("../Data/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
     var metadata = data.metadata;
     let demoPanel = d3.select('#sample-metadata')
     demoPanel.html('');
