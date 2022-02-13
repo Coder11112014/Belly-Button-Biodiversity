@@ -15,7 +15,7 @@ function demographic(sample, data) {
 function buildCharts(sample) {
 
 
-    d3.json("../Data/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         var samples = data.samples;
         var resultsarray = samples.filter(sampleobject =>
             sampleobject.id == sample);
@@ -72,7 +72,7 @@ function buildCharts(sample) {
 
 function init() {
     var selector = d3.select("#selDataset");
-    d3.json("../Data/samples.json").then(data => {
+    d3.json("samples.json").then(data => {
         var sampleNames = data.names;
         sampleNames.forEach((sample) => {
           selector
